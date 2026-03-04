@@ -1,5 +1,5 @@
 [package]
-name = "flux"
+name = "froc"
 version = "0.1.0"
 edition = "2024"
 
@@ -14,3 +14,4 @@ feed-rs = "2.3.1"
 chrono = "0.4.44"
 sqlx = { version = "0.8.6", features = ["sqlite", "runtime-tokio", "macros"] }
 anyhow = "1.0.102"
+html-escape = "0.2.13"
